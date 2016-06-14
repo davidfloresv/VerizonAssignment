@@ -5,6 +5,31 @@ Use Spring boot to launch app
 
 execute: **mvn spring-boot:run**
 
+## URLs 
+###Employee
+- http://localhost:8080/employee/{id}
+- http://localhost:8080/employee/{id}/delete
+- http://localhost:8080/employee/{id}/create?
+	- name
+	- manager
+	- department
+	- salary
+- http://localhost:8080/employee/{id}/update?
+	- name
+	- managerName
+	- departmentName
+	- salary
+- http://localhost:8080/employee/{id}/update_salary?
+	- salary
+### Department
+- http://localhost:8080/department/{id}
+- http://localhost:8080/department/create?
+	- name
+	- salary_min
+	- salary_max
+###Swagger
+- localhost:8080/swagger-ui.html
+
 ##Development
 
 - Eclipse was used to develop this application.

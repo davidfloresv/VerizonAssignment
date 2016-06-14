@@ -21,12 +21,14 @@ execute: **mvn spring-boot:run**
 	- salary
 - http://localhost:8080/employee/{id}/update_salary?
 	- salary
+
 ### Department
 - http://localhost:8080/department/{id}
 - http://localhost:8080/department/create?
 	- name
 	- salary_min
 	- salary_max
+
 ###Swagger
 - localhost:8080/swagger-ui.html
 
